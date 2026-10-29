@@ -8,6 +8,7 @@ import { ProductController } from './product/product.controller';
 import { EmployeeModule } from './employee/employee.module';
 import { CategoryModule } from './category/category.module';
 import { StudentModule } from './student/student.module';
+import { CustomerModule } from './customer/customer.module';
 
 export const { ObserveModule, ObserveInstrument } = createObserveModule();
 
@@ -23,6 +24,7 @@ export const { ObserveModule, ObserveInstrument } = createObserveModule();
     EmployeeModule,
     CategoryModule,
     StudentModule,
+    CustomerModule,
   ],
   controllers: [AppController, UserController, ProductController],
   providers: [AppService, ProductService],
